@@ -1,0 +1,50 @@
+.code-inline, td:last-child a {
+    display: inline-block;
+    background-color: dimgray;
+    color: lightgray;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 2px 4px;
+    margin: 3px 20px;
+    border: 1px solid rgb(88, 88, 88);
+    border-radius: 1px;
+    letter-spacing: 1px;
+}
+
+td:last-child a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+tr td:first-of-type {
+    font-size: 1.1em;
+}
+
+.lien-modal {
+    color: black;
+    border-bottom: 1px dotted lightgrey;
+}
+
+.lien-modal:hover {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+h4 {
+    border-left: 6px solid lightblue;
+    border-bottom: 1px solid lightblue;
+    padding-left: 10px;
+    padding-bottom: 4px;
+    padding-top: 2px;
+    color: black;
+    width: 25vw;
+}
+
+.bg-lightblue {
+    background-color: lightblue;
+}
+
+.bg-cyan {
+    background-color: rgb(245, 245, 255);
+}

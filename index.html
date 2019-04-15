@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>General Cheatsheet</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-fixed navbar-light bg-lightblue">
+        <div class="container">
+            <div class="navbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="navbar-brand mr-5" href="index.html">General Cheatsheet</a>
+                    </li>
+                    <li class="nav-item active dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown"
+                            data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">Navigateurs</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a href="#chrome" class="dropdown-item">Chrome</a>
+                            <!-- <a href="#" class="dropdown-item">Firefox</a> -->
+                        </div>
+                    </li>
+                    <li class="nav-item pl-2">
+                        <a href="#general" class="nav-link">Général</a>
+                    </li>
+                    <li class="nav-item pl-2">
+                        <a href="#vscode" class="nav-link">VSCode</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="bg-light py-5">
+        <div class="container">
+            <h4 class="mb-4 font-weight-bold" id="chrome">Google Chrome</h4>
+
+            <table class="ml-4">
+                <tr>
+                    <td>Ajouter un onglet</td>
+                    <td><span class="code-inline">CTRL + T</span></td>
+                </tr>
+                <tr>
+                    <td>Fermer un onglet</td>
+                    <td><span class="code-inline">CTRL + W</span></td>
+                </tr>
+                <tr>
+                    <td>Naviguer vers la droite</td>
+                    <td><span class="code-inline">CTRL + TAB</span></td>
+                </tr>
+                <tr>
+                    <td>Naviguer vers la gauche</td>
+                    <td><span class="code-inline">CTRL + SHIFT + TAB</span></td>
+                </tr>
+                <tr>
+                    <td>Rafraîchir la page</td>
+                    <td><span class="code-inline">CTRL + R</span></td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <section class="bg-cyan py-5">
+        <div class="container">
+            <h4 class="mb-4 font-weight-bold" id="general">Général</h4>
+
+            <table class="ml-4">
+                <tr>
+                    <td>Tout sélectionner</td>
+                    <td><span class="code-inline">CTRL + A</span></td>
+                </tr>
+                <tr>
+                    <td>Copier</td>
+                    <td><span class="code-inline">CTRL + C</span></td>
+                </tr>
+                <tr>
+                    <td>Couper</td>
+                    <td><span class="code-inline">CTRL + X</span></td>
+                </tr>
+                <tr>
+                    <td>Coller</td>
+                    <td><span class="code-inline">CTRL + V</span></td>
+                </tr>
+                <tr>
+                    <td>Annuler</td>
+                    <td><span class="code-inline">ECHAP</span></td>
+                </tr>
+                <tr>
+                    <td>Rechercher</td>
+                    <td><span class="code-inline">CTRL + F</span></td>
+                </tr>
+                <tr>
+                    <td>Sélectionner mot</td>
+                    <td><span class="code-inline">DOUBLECLICK</span></td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <section class="bg-light py-5">
+        <div class="container">
+            <h4 class="mb-4 font-weight-bold" id="vscode">Visual Studio Code</h4>
+
+            <table class="ml-4">
+                <tr>
+                    <td>
+                        <a class="lien-modal" href="#" data-toggle="modal"
+                            data-target="#ctrld">Sélectionner
+                            identique</a>
+                    </td>
+                    <td><span class="code-inline">CTRL + D</span></td>
+                </tr>
+                <tr>
+                    <td><a class="lien-modal" href="#" data-toggle="modal"
+                            data-target="#ctrlshiftl">Sélectionner tous
+                            les
+                            identiques</a></td>
+                    <td><span class="code-inline">CTRL + SHIFT + L</span></td>
+                </tr>
+                <tr>
+                    <td>Emmet Cheatsheet</td>
+                    <td>
+                        <a href="https://docs.emmet.io/cheat-sheet/" target="_blank">Cliquez ici</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="#" class="lien-modal" data-toggle="modal"
+                            data-target="#ctrlr">Rechercher fichier</a>
+                    </td>
+                    <td><span class="code-inline">CTRL + R</span></td>
+                </tr>
+                <tr>
+                    <td>Naviguer onglet</td>
+                    <td><span class="code-inline">CTRL + TAB</span></td>
+                </tr>
+                <tr>
+                    <td>Rechercher</td>
+                    <td><span class="code-inline">CTRL + F</span></td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <!-- MODAL -->
+    <div class="modal fade" id="ctrld" tabindex="-1" role="dialog" aria-labelledby="ctrld"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="ctrld">Sélectionner identique</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body mx-auto">
+                    <img src="img/ctrlD.gif" alt="selection ctrl + d">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary"
+                        data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FIN MODAL-->
+
+    <!-- MODAL -->
+    <div class="modal fade" id="ctrlshiftl" tabindex="-1" role="dialog" aria-labelledby="ctrlshiftl"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class"modal-title" id="ctrlshiftl">Sélectionner tous les identiques</h5>
+                    <button type="button" class="close" data-dismiss="modal"
+                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body mx-auto">
+                    <img src="img/ctrlshiftL.gif" alt="Sélectionner tous les identiques">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary"
+                        data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FIN MODAL -->
+
+    <!-- MODAL -->
+    <div class="modal fade" id="ctrlr" tabindex="-1" role="dialog" aria-labelledby="ctrlr"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class"modal-title" id="ctrlr">Rechercher fichier</h5>
+                    <button type="button" class="close" data-dismiss="modal"
+                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body mx-auto">
+                    <img src="img/ctrlR.gif" alt="Rechercher fichier">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary"
+                        data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FIN MODAL -->
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
