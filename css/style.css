@@ -10,7 +10,7 @@
     letter-spacing: 1px;
 }
 
-td:last-child a:hover {
+tr td:last-child a:hover {
     text-decoration: none;
     font-weight: bold;
     color: black;

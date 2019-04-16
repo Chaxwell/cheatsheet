@@ -36,6 +36,9 @@
                     <li class="nav-item pl-2">
                         <a href="#vscode" class="nav-link">VSCode</a>
                     </li>
+                    <li class="nav-item pl-2">
+                        <a href="#terminal" class="nav-link">Terminal</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -123,16 +126,18 @@
                 <tr>
                     <td>
                         <a class="lien-modal" href="#" data-toggle="modal"
-                            data-target="#ctrld">Sélectionner
+                            data-target="#vscodectrld">Sélectionner
                             identique</a>
                     </td>
                     <td><span class="code-inline">CTRL + D</span></td>
                 </tr>
                 <tr>
-                    <td><a class="lien-modal" href="#" data-toggle="modal"
-                            data-target="#ctrlshiftl">Sélectionner tous
+                    <td>
+                        <a class="lien-modal" href="#" data-toggle="modal"
+                            data-target="#vscodectrlshiftl">Sélectionner tous
                             les
-                            identiques</a></td>
+                            identiques</a>
+                    </td>
                     <td><span class="code-inline">CTRL + SHIFT + L</span></td>
                 </tr>
                 <tr>
@@ -144,7 +149,7 @@
                 <tr>
                     <td>
                         <a href="#" class="lien-modal" data-toggle="modal"
-                            data-target="#ctrlr">Rechercher fichier</a>
+                            data-target="#vscodectrlr">Rechercher fichier</a>
                     </td>
                     <td><span class="code-inline">CTRL + R</span></td>
                 </tr>
@@ -159,20 +164,98 @@
             </table>
         </div>
     </section>
+    <section class="bg-cyan py-5">
+        <div class="container">
+            <h4 class="mb-4 font-weight-bold" id="terminal">Terminal (command-line)</h4>
+
+            <table class="ml-4">
+                <tr>
+                    <td>
+                        Ouvrir un nouveau Terminal
+                    </td>
+                    <td><span class="code-inline">CTRL + ALT + T</span></td>
+                </tr>
+                <tr>
+                    <td>
+                        Autocomplétition
+                    </td>
+                    <td><span class="code-inline">TAB</span></td>
+                </tr>
+                <tr>
+                    <td><a href="#" class="lien-modal" data-toggle="modal"
+                            data-target="#terminalctrll">Nettoyer le Terminal</a> </td>
+                    <td><span class="code-inline">CTRL + L</span></td>
+                </tr>
+                <tr>
+                    <td><a href="#" class="lien-modal" data-toggle="modal"
+                            data-target="#terminalctrla">Aller au début de la ligne</a>
+                    </td>
+                    <td>
+                        <span class="code-inline">CTRL + A</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="#" class="lien-modal" data-toggle="modal"
+                            data-target="#terminalctrle">Aller à la fin de la ligne</a>
+                    </td>
+                    <td>
+                        <span class="code-inline">CTRL + E</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Supprimer la ligne</td>
+                    <td>
+                        <span class="code-inline">CTRL + U</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Annuler suppression (répétable)</td>
+                    <td>
+                        <span class="code-inline">CTRL + Y</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Coller</td>
+                    <td>
+                        <span class="code-inline">CTRL + SHIFT + V</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Dernière commande lancée</td>
+                    <td>
+                        <span class="code-inline">UPARROW</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Recherche inversée</td>
+                    <td>
+                        <span class="code-inline">CTRL + R</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Parcourir la recherche inversée</td>
+                    <td>
+                        <span class="code-inline">CTRL + R</span>
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+    </section>
 
     <!-- MODAL -->
-    <div class="modal fade" id="ctrld" tabindex="-1" role="dialog" aria-labelledby="ctrld"
-        aria-hidden="true">
+    <div class="modal fade" id="vscodectrld" tabindex="-1" role="dialog"
+        aria-labelledby="vscodectrld" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="ctrld">Sélectionner identique</h5>
+                    <h5 class="modal-title" id="vscodectrld">Sélectionner identique</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body mx-auto">
-                    <img src="img/ctrlD.gif" alt="selection ctrl + d">
+                    <img src="img/vscode/ctrlD.gif" alt="selection ctrl + d">
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary"
@@ -184,18 +267,19 @@
     <!-- FIN MODAL-->
 
     <!-- MODAL -->
-    <div class="modal fade" id="ctrlshiftl" tabindex="-1" role="dialog" aria-labelledby="ctrlshiftl"
-        aria-hidden="true">
+    <div class="modal fade" id="vscodectrlshiftl" tabindex="-1" role="dialog"
+        aria-labelledby="vscodectrlshiftl" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class"modal-title" id="ctrlshiftl">Sélectionner tous les identiques</h5>
+                    <h5 class="modal-title" id="vscodectrlshiftl">Sélectionner tous les identiques
+                    </h5>
                     <button type="button" class="close" data-dismiss="modal"
                         aria-label="Close"><span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body mx-auto">
-                    <img src="img/ctrlshiftL.gif" alt="Sélectionner tous les identiques">
+                    <img src="img/vscode/ctrlshiftL.gif" alt="Sélectionner tous les identiques">
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary"
@@ -207,18 +291,87 @@
     <!-- FIN MODAL -->
 
     <!-- MODAL -->
-    <div class="modal fade" id="ctrlr" tabindex="-1" role="dialog" aria-labelledby="ctrlr"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal fade" id="vscodectrlr" tabindex="-1" role="dialog"
+        aria-labelledby="vscodectrlr" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class"modal-title" id="ctrlr">Rechercher fichier</h5>
+                    <h5 class="modal-title" id="vscodectrlr">Rechercher fichier</h5>
                     <button type="button" class="close" data-dismiss="modal"
                         aria-label="Close"><span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body mx-auto">
-                    <img src="img/ctrlR.gif" alt="Rechercher fichier">
+                    <img src="img/vscode/ctrlR.gif" alt="Rechercher fichier">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary"
+                        data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FIN MODAL -->
+
+    <!-- MODAL -->
+    <div class="modal fade" id="terminalctrll" tabindex="-1" role="dialog"
+        aria-labelledby="terminalctrll" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="terminalctrll">Nettoyer le terminal</h5>
+                    <button type="button" class="close" data-dismiss="modal"
+                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body mx-auto">
+                    <img src="img/terminal/ctrlL.gif" alt="Nettoyer le terminal">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary"
+                        data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FIN MODAL -->
+
+    <!-- MODAL -->
+    <div class="modal fade" id="terminalctrla" tabindex="-1" role="dialog"
+        aria-labelledby="terminalctrla" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="terminalctrla">Aller au début de la ligne</h5>
+                    <button type="button" class="close" data-dismiss="modal"
+                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body mx-auto">
+                    <img src="img/terminal/ctrlA.gif" alt="Aller au début de la ligne">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary"
+                        data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FIN MODAL -->
+
+    <!-- MODAL -->
+    <div class="modal fade" id="terminalctrle" tabindex="-1" role="dialog"
+        aria-labelledby="terminalctrle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="terminalctrle">Aller à la fin de la ligne</h5>
+                    <button type="button" class="close" data-dismiss="modal"
+                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body mx-auto">
+                    <img src="img/terminal/ctrlE.gif" alt="Aller à la fin de la ligne">
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary"
