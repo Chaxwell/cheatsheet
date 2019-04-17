@@ -115,6 +115,10 @@
                     <td>Sélectionner mot</td>
                     <td><span class="code-inline">DOUBLECLICK</span></td>
                 </tr>
+                <tr>
+                    <td>Fermer l'application</td>
+                    <td><span class="code-inline">ALT + F4</span></td>
+                </tr>
             </table>
         </div>
     </section>
@@ -161,6 +165,21 @@
                 <tr>
                     <td>Rechercher</td>
                     <td><span class="code-inline">CTRL + F</span></td>
+                </tr>
+                <tr>
+                    <td>Formatter le code</td>
+                    <td><span class="code-inline">CTRL + SHIFT + I</span></td>
+                </tr>
+                <tr>
+                    <td>Mettre en commentaire</td>
+                    <td><span class="code-inline">CTRL + SHIFT + /</span></td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="#" class="lien-modal" data-toggle="modal"
+                            data-target="#vscodectrlshiftf">Rechercher dans tous les fichiers</a>
+                    </td>
+                    <td><span class="code-inline">CTRL + SHIFT + F</span></td>
                 </tr>
             </table>
         </div>
@@ -383,6 +402,29 @@
     </div>
     <!-- FIN MODAL -->
 
+    <!-- MODAL -->
+    <div class="modal fade" id="vscodectrlshiftf" tabindex="-1" role="dialog"
+        aria-labelledby="vscodectrlshiftf" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="vscodectrlshiftf">Rechercher dans tous les fichiers
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal"
+                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body mx-auto">
+                    <img src="img/vscode/ctrlshiftF.gif" alt="Rechercher dans tous les fichiers">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary"
+                        data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FIN MODAL -->
 
 
 

@@ -21,8 +21,8 @@ tr td:first-of-type {
 }
 
 .lien-modal {
-    color: black;
-    border-bottom: 1px dotted lightgrey;
+    color: rgb(88, 88, 88);
+    border-bottom: 2px dotted lightgrey;
 }
 
 .lien-modal:hover {
